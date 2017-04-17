@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*页面初始化*/
+
+body{
+	background: #f7f7f7;
+	font: 14px Arial,Verdana,微软雅黑,黑体,宋体,"SimSun",sans-serif;
+	color: #828282;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+       
+ul{ 
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #828282;
+}
+
+.hover:hover{
+	color: #318e00;
+}
+.selected{
+	color: #318e00;
+}
+/*#wrap{
+	width: 100%;
+	min-width: 1226px;
+	margin: 0 auto;
+}*/
+
+/*t-h start*/
+
+#yy_header{
+	width: 100%;
+	min-width: 1226px;
+	background-color: #fff;
+	/*position: relative;*/
+	font-size: 0.9em;
+}
+#yy_header .center{
+	width: 1226px;
+	margin: 0 auto;
+}
+#yy_header .t-h{
+	height: 30px;
+	line-height: 30px;
+	background-color: #f1f1f1;
+}
+
+#yy_header .t-h .left{
+	float: left;
+	padding-left: 190px;
+}
+
+#yy_header .t-h .left .arrows-down{
+	padding-left: 25px;
+}
+
+#yy_header .t-h .left a{
+	color: #318e00;
+}
+
+#yy_header .t-h .right{
+	/*width: 500px;*/
+	/*position: absolute;
+	right: 190px;*/
+	float: right;
+}
